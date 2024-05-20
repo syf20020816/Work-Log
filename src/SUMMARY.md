@@ -2,6 +2,8 @@
 
 - [2024-05](./05/index.md)
   - [day20](./05/20.md)
+    - [serde+rmp_serde](./05/20_record1.md)
+    - [calc file hash(sha2)](./05/20_record2.md)
   - [day21](./05/21.md)
   - [day22](./05/22.md)
   - [day23](./05/23.md)
