@@ -5,6 +5,7 @@
     - [serde+rmp_serde](./05/20_record1.md)
     - [calc file hash(sha2)](./05/20_record2.md)
   - [day21](./05/21.md)
+    - [pathbuf](./05/21/record1.md)
   - [day22](./05/22.md)
   - [day23](./05/23.md)
   - [day24](./05/24.md)
