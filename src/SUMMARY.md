@@ -8,6 +8,7 @@
     - [pathbuf](./05/21/record1.md)
   - [day22](./05/22.md)
   - [day23](./05/23.md)
+    - [Hash, Eq, PartialEq trait](./05/23/record1.md)
   - [day24](./05/24.md)
   - [day26](./05/26.md)
   - [day27](./05/27.md)
