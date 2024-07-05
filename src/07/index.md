@@ -6,4 +6,4 @@
 - [ ] 动画写法
 - [ ] for
 - [ ] if-else
-- [ ] gosim.org静态网页
+- [x] gosim.org静态网页
