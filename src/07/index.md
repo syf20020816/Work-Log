@@ -1,46 +1,17 @@
 # 2024-07
 
 - [x] 完成Makepad所有基础组件静态解析
-- [ ] 完成Makepad LivePtr (for) 解析
-- [ ] 完成基本Gen-Makepad内置组件库
+- [ ] 完成Makepad LivePtr (for) 解析 (move to month 8)
+- [ ] 完成基本Gen-Makepad内置组件库 (move to month 8) (20%)
 - [x] 动画写法
-- [ ] for
-- [ ] if-else
+- [ ] for (move to month 8)
+- [ ] if-else (move to month 8)
 - [x] gosim.org静态网页
 - [x] wasm
+- [x] 集成ArkUI语法
+- [x] 优化框架，优化公共库
+- [x] 编译器优化
 - [x] Makepad WidgetRef (as_prop)
-
----
-
-- [x] learn arkts and arkui
-- [ ] build builder
-  - [ ] build ohpm
-  - [ ] build hvigorw.js
-- [ ] built AppScope
-  - [ ] resources
-    - [ ] base
-      - [ ] element
-        - [ ] string.json // 字符串布局文件
-      - [ ] media
-        - [ ] png/svg/... static
-  - [ ] app.json5
-- [ ] entry //source code
-  - [ ] src
-    - [ ] main
-      - [ ] ets
-        - [ ] entryability
-          - [ ] EntryAbility.ets // ability等生命周期文件
-        - [ ] pages
-          - [ ] index.ets
-      - [ ] resources
-        - [ ] base
-          - [ ] element
-            - [ ] color.json
-            - [ ] string.json
-        - [ ] en_US
-        - [ ] rawfile
-        - [ ] zh_CN
-      - [ ] module.json5 // 模块配置文件
 
 ## todo!
 - image图片小于原图片尺寸会变模糊(越小越模糊)
