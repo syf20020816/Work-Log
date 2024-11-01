@@ -1,6 +1,10 @@
-- [ ] 完成Aws Drive Cloud App
-- [ ] 发布GenUI的内置组件库v0.1.0
-- [ ] 更新组件库文档
-- [ ] 集成GenUI内置库
-- [ ] Makepad动态脚本能力 80%
-- [ ] 尝试RustPixel
+- [x] 完成Aws Drive Cloud App (基本完成，剩余删除，虚拟文件夹，文件功能，后续改为aws rust sdk)
+- [x] 发布GenUI的内置组件库v0.1.0
+- [x] 更新组件库文档 （40%）
+- [x] GenUI内置库单独项目
+- [ ] 集成GenUI内置库 （重构中， to mouth 11）
+- [ ] Makepad动态脚本能力 80% （重构中 ， to mouth 11）
+- [x] 尝试RustPixel
+  - [ ] 当前设计使用wasm + js 通道通信(需要设计新wasm流程库)
+- [x] GOSIM Meeting
+- [ ] 发布AWS Drive Cloud App（Windows）
