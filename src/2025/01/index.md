@@ -1,5 +1,5 @@
-- [ ] 完成GenUI 结合 Makepad网络传输
-- [ ] TODO 简单例子测试 (后段SALVO)
+- [x] 完成GenUI 结合 Makepad网络传输
+- [x] TODO 简单例子测试 (后段SALVO)
 - [ ] 更新最新的文档
 - [ ] 发布GenUI V0.1.0 (Basic)
 - [ ] 发布Ract V0.1.0
