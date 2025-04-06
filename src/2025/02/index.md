@@ -1,0 +1,55 @@
+- Analyzer
+  - Value
+    - Enum: parse_template can not parse standard string type
+    - Bind: `ident()` output wrong bind ident
+  - multi err_from_to
+  - Util
+    - git download function
+- Add builtin components
+  - popup
+  - popup_container
+  - dialog
+  - drawer
+  - tool_tip
+  - drop_down
+  - tag
+  - loading
+  - collapse
+  - toggle
+- Optimize builtin components
+  - image: `src` can use `base64`, `local_file`, `url`
+  - radio: animation, lifecycle
+  - checkbox: animation, lifecycle
+- combine `gen_parser` with `gen_converter` as `gen_analyzer`
+- `gen_analyzer`
+  - remove one convert layer (from 640.625µs(avg) -> 200.132µs)
+  - reduce the number of repeated traversals
+  - early static analysis
+- `rssyin`
+  - visitor_chain -> define analyzer use `ra_ap_syntax` 
+  - add new `ScriptBridger`
+- remove `gen_mk_script_objs`
+- new rust script syntax
+  - add `#[component]`
+  - use `#[prop]` on prop struct
+  - replace lifecycle `#[before_create]` to `#[before_mount]`
+  - add `#[mounted]`
+  - replace `default_prop!` to `impl Default trait` (just like usual rust)
+  - impl `#[component]` struct
+- Windows packaging resources missing
+- fix makepad template `set_text_and_redraw` -> `set_text`
+- fix unlinked `gen_components` dep
+- fix makepad-widgets dynamic configuration loss
+- better env.toml
+- config struct for `.env`
+- config struct for `env.toml`
+- commands
+  - uninstall
+  - update
+- support package `gen_ui`, `makepad` project
+- new `.dmg` packing brackground picture
+- support package usuall project (not `gen_ui` or `makeapd`)
+- under normal circumstances, `ract` can be packaged in multiple ways on the current platform, such as macos (dmg and app)
+- integrate `robius-packaging-commands` in ract
+  - use goblin crate instead of reading ldd output for parsing (only linux)
+- remove `before-each-package-command` and `before-packaging-commands` and use internal processing instead
